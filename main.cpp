@@ -28,17 +28,14 @@ Thread thread, t;
 EventQueue queue(64 * EVENTS_EVENT_SIZE);
 InterruptIn sw0(USER_BUTTON);
 WiFiInterface *wifi;
-
 int16_t PDataXYZ[3] = {0};
 int16_t rDataXYZ[3] = {0};
 uLCD_4DGL uLCD(D1, D0, D2);
 DigitalOut myled(LED1);
 DigitalOut myled2(LED2);
 DigitalOut myled3(LED3);
-
-int Count = 0;
 int ThresholdCount = 10;
-
+int counter = 0;
 int off = 1;
 int off2 = 1;
 
@@ -393,7 +390,6 @@ int main() {
       printf("%s\r\n", outbuf);
    }
 }
-
 void record(void) {
    //double val;
    BSP_ACCELERO_AccGetXYZ(PDataXYZ);
@@ -410,12 +406,10 @@ void record(void) {
     Count = Count + 1;
    }
 }
-
 void initialize() {
   BSP_ACCELERO_AccGetXYZ(rDataXYZ);
   printf("%d, %d, %d\n", rDataXYZ[0], rDataXYZ[1], rDataXYZ[2]);
 }
-
 void retrieve(Arguments *in, Reply *out) {
   BSP_ACCELERO_Init();
   message_num = 0;
