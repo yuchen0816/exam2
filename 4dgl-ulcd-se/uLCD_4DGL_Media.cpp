@@ -1,5 +1,5 @@
 //
-// uLCD_4DGL is a class to drive 4D Systems LCD screens
+//  uLCD_4DGL is a class to drive 4D Systems LCD screens
 //
 // Copyright (C) <2010> Stephane ROCHON <stephane.rochon at free.fr>
 // Modifed for Goldelox processor <2013> Jim Hamblen

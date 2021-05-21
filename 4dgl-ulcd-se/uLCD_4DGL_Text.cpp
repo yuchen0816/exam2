@@ -1,7 +1,7 @@
 //
 // uLCD_4DGL is a class to drive 4D Systems TFT touch screens
 //
-// Copyright (C) <2010> Stephane ROCHON <stephane.rochon at free.fr>
+//  Copyright (C) <2010> Stephane ROCHON <stephane.rochon at free.fr>
 // Modifed for Goldelox processor <2013> Jim Hamblen
 //
 // uLCD_4DGL is free software: you can redistribute it and/or modify

@@ -1,5 +1,5 @@
 //
-// uLCD_4DGL is a class to drive 4D Systems TFT touch screens
+//  uLCD_4DGL is a class to drive 4D Systems TFT touch screens
 //
 // Fork of 4DGL library for 4D Systems LCD displays
 // Copyright (C) <2010> Stephane ROCHON <stephane.rochon at free.fr>
