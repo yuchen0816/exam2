@@ -1110,4 +1110,4 @@ const unsigned char g_magic_wand_model_data[] DATA_ALIGN_ATTRIBUTE = {
   // Paste the data of the char array in `src/model.cc` here
 };
 
-unsigned int model_tflite_len = 13120;// Fill the int in `src/model.cc` here
+unsigned int  model_tflite_len = 13120;// Fill the int in `src/model.cc` here

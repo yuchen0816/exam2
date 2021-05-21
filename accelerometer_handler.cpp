@@ -13,7 +13,7 @@ int begin_index = 0;
 bool pending_initial_data = true;
 // How often we should save a measurement during downsampling
 int sample_every_n = 1;
-// The number of measurements since we last saved one
+//  The number of measurements since we last saved one
 int sample_skip_counter = 1;
 
 TfLiteStatus SetupAccelerometer(tflite::ErrorReporter* error_reporter) {
