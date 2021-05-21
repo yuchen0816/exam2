@@ -3,7 +3,7 @@
 
 add_library(wifi-ism43362 INTERFACE)
 
-target_include_directories(wifi-ism43362
+target_include_directories (wifi-ism43362
     INTERFACE
         .
         ISM43362
